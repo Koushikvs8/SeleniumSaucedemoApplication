@@ -25,7 +25,7 @@ public class BaseClass {
 	
 	@BeforeClass
 	public void SetUp() throws IOException
-	{    System.out.println(System.getProperty("user.dir"));
+	{    
 		
 		FileInputStream file;
 		try {
