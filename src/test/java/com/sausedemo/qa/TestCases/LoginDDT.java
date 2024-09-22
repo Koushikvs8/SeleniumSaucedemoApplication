@@ -20,7 +20,7 @@ public class LoginDDT extends BaseClass{
 		Thread.sleep(2000);
 		HomePage homepage=new HomePage(driver);
 		try {
-			boolean status=homepage.display();
+			boolean status=homepage.displaymenu();
 
 			homepage.clickBtnMenu();
 			Thread.sleep(2000);

@@ -25,11 +25,11 @@ public class BaseClass {
 	
 	@BeforeClass
 	public void SetUp() throws IOException
-	{    
+	{    System.out.println(System.getProperty("user.dir"));
 		
 		FileInputStream file;
 		try {
-			file = new FileInputStream("C:\\Users\\User\\eclipse-workspace\\JavaSEliniumAutomation\\saucedemo\\src\\test\\resources\\config.properties");
+			file = new FileInputStream(System.getProperty("user.dir") +"\\src\\test\\resources\\config.properties");
 			prop=new Properties();
 			prop.load(file);
 		} catch (FileNotFoundException e) {
