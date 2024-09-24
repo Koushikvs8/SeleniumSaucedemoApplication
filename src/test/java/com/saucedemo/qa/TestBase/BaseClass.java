@@ -26,7 +26,7 @@ public class BaseClass {
 	@BeforeClass
 	public void SetUp() throws IOException
 	{    
-		
+		System.out.println("");
 		FileInputStream file;
 		try {
 			file = new FileInputStream(System.getProperty("user.dir") +"\\src\\test\\resources\\config.properties");
