@@ -4331,3 +4331,37 @@ org.eclipse.jgit.errors.TransportException: Nothing to push.
 
 !ENTRY org.eclipse.egit.ui 4 0 2024-10-14 17:27:17.042
 !MESSAGE Can't connect to any repository: https://github.com/Koushikvs8/SeleniumSaucedemoApplication.git (Nothing to push.)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-10-14 17:38:00.516
+!MESSAGE An exception occurred during push on URI https://github.com/Koushikvs8/SeleniumSaucedemoApplication.git: https://github.com/Koushikvs8/SeleniumSaucedemoApplication.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Koushikvs8/SeleniumSaucedemoApplication.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1555)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-10-14 17:38:00.518
+!MESSAGE Can't connect to any repository: https://github.com/Koushikvs8/SeleniumSaucedemoApplication.git (https://github.com/Koushikvs8/SeleniumSaucedemoApplication.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-10-14 17:42:34.945
+!MESSAGE An exception occurred during push on URI https://github.com/Koushikvs8/SeleniumSaucedemoApplication.git: https://github.com/Koushikvs8/SeleniumSaucedemoApplication.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Koushikvs8/SeleniumSaucedemoApplication.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:694)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:636)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:540)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1555)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-10-14 17:42:34.946
+!MESSAGE Can't connect to any repository: https://github.com/Koushikvs8/SeleniumSaucedemoApplication.git (https://github.com/Koushikvs8/SeleniumSaucedemoApplication.git: not authorized)
