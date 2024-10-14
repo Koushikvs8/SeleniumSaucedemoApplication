@@ -518,3 +518,11 @@ org.eclipse.core.runtime.CoreException: Launch configuration Homepage_Products r
 2024-09-24 17:05:56,856 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Usereclipsonly\KoushikWorkspace2\SeleniumSaucedemoApplication\src\main\resources
 2024-09-24 17:05:56,859 [Worker-80: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2024-09-24 17:05:56,862 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\test\resources to target\test-classes
+2024-09-24 17:07:06,360 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-09-24 17:07:06,362 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Usereclipsonly\KoushikWorkspace2\SeleniumSaucedemoApplication\src\main\resources
+2024-09-24 17:07:06,365 [Worker-79: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-09-24 17:07:06,367 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\test\resources to target\test-classes
+2024-09-24 17:07:13,329 [Worker-75: Launching LoginDDT] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-09-24 17:07:13,330 [Worker-75: Launching LoginDDT] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Usereclipsonly\KoushikWorkspace2\SeleniumSaucedemoApplication\src\main\resources
+2024-09-24 17:07:13,334 [Worker-75: Launching LoginDDT] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-09-24 17:07:13,337 [Worker-75: Launching LoginDDT] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\test\resources to target\test-classes
